@@ -1,0 +1,40 @@
+{
+  "name": "graphql-query-count-limit",
+  "version": "1.0.0",
+  "description": "A validator for the number of queries per request and root selectors per query.",
+  "keywords": [
+    "graphql",
+    "complexity",
+    "query",
+    "count",
+    "limit",
+    "security"
+  ],
+  "repository": "git@github.com:teamstarter/graphql-query-count-limit.git",
+  "author": "vincent desmares <vincent.desmares@gmail.com>",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=9.11.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "ava": {
+    "verbose": true
+  },
+  "files": [
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/teamstarter/graphql-query-count-limit/issues"
+  },
+  "homepage": "https://github.com/teamstarter/graphql-query-count-limit#readme",
+  "peerDependencies": {
+    "graphql": "*"
+  },
+  "devDependencies": {
+    "graphql": "^0.10.5",
+    "standard-version": "^8.0.1"
+  }
+}
